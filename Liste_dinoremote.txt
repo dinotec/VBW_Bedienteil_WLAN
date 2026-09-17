@@ -1,0 +1,14 @@
+Reg.15: Status Elektolyse
+    bit  0 - Alarm Produkttemperatur zu hoch
+    bit  1 - Warnung Produkttemperatur hoch
+    bit  2 - Warnung Produkttemperatur niedrig
+    bit  3 - Alarm Strom zu hoch
+    bit  4 - Alarm Strom zu niedrig
+    bit  5 - Alarm Durchfluss zu hoch
+    bit  6 - Alarm Durchfluss zu niedrig
+    bit  7 - Alarm Zellenspannung zu hoch
+    bit  8 - Warnung Zellenspannung zu hoch
+    bit  9 - Warnung Notbetrieb
+    bit 10 - Alarm Zellenspannung zu niedrig
+    bit 11 - Alarm Anlagenbetrieb 
+    bit 12 - Enthärter regeneriert 

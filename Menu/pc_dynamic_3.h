@@ -1,0 +1,89 @@
+
+//~ #include "enum_test.h"
+#include "enum_def.h"
+#include "sprache_pcd_de.h"
+#include "sprache_pcd_en.h"
+#include "sprache_pcd_fr.h"
+#include "sprache_pcd_es.h"
+#include "sprache_pcd_pl.h"
+#include "sprache_pcd_ua.h"
+#include "sprache_pcd_ru.h"
+#include "sprache_pcd_it.h"
+#include "sprache_pcd_cz.h"
+#include "sprache_pcd_sl.h"
+#include "sprache_pcd_hr.h"
+#include "sprache_pcd_hu.h"
+#include "sprache_pcd_ro.h"
+#include "sprache_pcd_nl.h"
+#include "sprache_pcd_sr.h"
+
+int menu_0[] = {1,2,3,4,11,33,103,123,136,137,138};
+int menu_1[] = {4,5,6,7,8,9,10,260};
+int menu_2[] = {11,12,26,};
+int menu_3[] = {12,13,14,15,16,17,18,19,20,21,22,23,24,25,};
+int menu_4[] = {26,27,28,29,30,31,32,};
+int menu_5[] = {33,34,35,51,68,82,88,94,99,};
+int menu_6[] = {35,36,43,47,};
+int menu_7[] = {36,37,38,39,40,41,42,};
+int menu_8[] = {43,44,45,46,};
+int menu_9[] = {47,48,49,50,};
+int menu_10[] = {51,52,59,64,};
+int menu_11[] = {52,53,54,55,56,57,58,};
+int menu_12[] = {59,60,61,62,63,};
+int menu_13[] = {64,65,66,67,};
+int menu_14[] = {68,69,75,78,};
+int menu_15[] = {69,70,71,72,73,74,};
+int menu_16[] = {75,76,77,};
+int menu_17[] = {78,79,80,81,};
+int menu_18[] = {82,83,84,85,86,87,};
+int menu_19[] = {88,89,90,91,92,93,};
+int menu_20[] = {94,95,96,97,98,};
+int menu_21[] = {99,100,101,102,};
+int menu_22[] = {103,104,113,120,};
+int menu_23[] = {104,105,106,107,108,109,110,111,112,};
+int menu_24[] = {113,114,115,116,117,118,119,};
+int menu_25[] = {120,121,122,};
+int menu_26[] = {123,124,130,};
+int menu_27[] = {124,125,126,127,128,129,};
+int menu_28[] = {130,131,132,133,134,135,};
+int menu_29[] = {138,139,140,141,142,143,263};
+int menu_30[] = {143,144,145,146,147,148,149,150,263};
+int menu_31[] = {263,264,265,266,267,268,269};
+
+
+unsigned char menu_attr[] = {0,0,0};
+//~ unsigned char menu_attr[] = {
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // 200
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,	// 220
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,  // 240 
+//~ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+
+int* menu[] = { menu_0, menu_1, menu_2, menu_3, menu_4, menu_5, menu_6, menu_7, menu_8,  menu_9,
+			   menu_10,menu_11,menu_12,menu_13,menu_14,menu_15,menu_16,menu_17, menu_18, menu_19,
+			   menu_20,menu_21,menu_22,menu_23,menu_24,menu_25,menu_26,menu_27, menu_28, menu_29,
+			   menu_30,menu_31};
+int len[] = {
+			sizeof(menu_0 )/sizeof(int),sizeof(menu_1 )/sizeof(int),sizeof(menu_2 )/sizeof(int),sizeof(menu_3 )/sizeof(int),
+			sizeof(menu_4 )/sizeof(int),sizeof(menu_5 )/sizeof(int),sizeof(menu_6 )/sizeof(int),sizeof(menu_7 )/sizeof(int),
+			sizeof(menu_8 )/sizeof(int),sizeof(menu_9 )/sizeof(int),sizeof(menu_10)/sizeof(int),sizeof(menu_11)/sizeof(int),
+			sizeof(menu_12)/sizeof(int),sizeof(menu_13)/sizeof(int),sizeof(menu_14)/sizeof(int),sizeof(menu_15)/sizeof(int),
+			sizeof(menu_16)/sizeof(int),sizeof(menu_17)/sizeof(int),sizeof(menu_18)/sizeof(int),sizeof(menu_19)/sizeof(int),
+			sizeof(menu_20)/sizeof(int),sizeof(menu_21)/sizeof(int),sizeof(menu_22)/sizeof(int),sizeof(menu_23)/sizeof(int),
+			sizeof(menu_24)/sizeof(int),sizeof(menu_25)/sizeof(int),sizeof(menu_26)/sizeof(int),sizeof(menu_27)/sizeof(int),
+			sizeof(menu_28)/sizeof(int),sizeof(menu_29)/sizeof(int),sizeof(menu_30)/sizeof(int),sizeof(menu_31)/sizeof(int)
+};
+
+const char** text[] = {text_de, text_en, text_fr, text_es, text_pl, text_ua, text_ru, text_it, text_cz, text_sl, text_hr, text_hu, text_ro, text_nl, text_sr}; 
+//~ char** text[]={text_de,text_en,text_fr,text_es,text_pl,text_ua,text_ru,text_it,text_cz,};//text_sl,text_hr,text_hu,text_ro,text_nl,text_sr}; 
+//~ char** text[] = {text_de, text_en}; 
+//~ const char** text[] = {text_de, text_en, }; 

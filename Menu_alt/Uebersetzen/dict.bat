@@ -1,0 +1,13 @@
+dict.exe texte_20170102_en.txt
+dict.exe texte_20170102_cz.txt
+dict.exe texte_20170102_es.txt
+dict.exe texte_20170102_it.txt
+dict.exe texte_20170102_nl.txt
+dict.exe texte_20170102_ro.txt
+dict.exe texte_20170102_ru.txt
+dict.exe texte_20170102_hu.txt
+dict.exe texte_20170102_ua.txt
+dict.exe texte_20170102_pl.txt
+dict.exe texte_20170102_hr.txt
+dict.exe texte_20170102_sr.txt
+dict.exe texte_20170102_fr.txt

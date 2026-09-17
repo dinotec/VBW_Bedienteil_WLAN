@@ -1,0 +1,15 @@
+conv_uni.exe sprache_uni_de.txt
+conv_uni.exe sprache_uni_en.txt
+conv_uni.exe sprache_uni_es.txt
+conv_uni.exe sprache_uni_fr.txt
+conv_uni.exe sprache_uni_it.txt
+conv_uni.exe sprache_uni_nl.txt
+conv_uni.exe sprache_uni_hu.txt
+conv_uni.exe sprache_uni_ro.txt
+conv_uni.exe sprache_uni_ru.txt
+conv_uni.exe sprache_uni_cz.txt
+conv_uni.exe sprache_uni_ua.txt
+conv_uni.exe sprache_uni_hr.txt
+conv_uni.exe sprache_uni_sr.txt
+conv_uni.exe sprache_uni_sl.txt
+conv_uni.exe sprache_uni_pl.txt
